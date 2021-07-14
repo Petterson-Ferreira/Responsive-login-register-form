@@ -3,6 +3,9 @@ it's just a responsive front-end project, I didn't do the form validation (I was
 
 #### You can see the site here: https://my-reponsive-login-form.netlify.app/
 
+#### Images used: https://undraw.co/
+#### Icons: https://fontawesome.com/
+
 ### How it works
 We have 2 forms and 1 ::before element which is the circle.
 When we click on sign up or sign in button the form change swtich screens by throwing it to the side.

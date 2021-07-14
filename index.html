@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In & Sign up Form</title>
+    <script src="https://kit.fontawesome.com/378cd465c9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup"> <!-- Preciso que esse container seja um grid com 1 coluna -->
+                <form action="#" class="sign-in-form">
+                    <h2 class="title">Sign in</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" class="valid" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" class="valid" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Login" class="btn solid">
+
+                    <p class="social-text">Or Sign in with social platform</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </form>
+
+                <form action="#" class="sign-up-form">
+                    <h2 class="title">Sign up</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" class="valid username" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" class="valid" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" class="valid" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Sign up" class="btn solid">
+
+                    <p class="social-text">Or Sign in with social platform</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>New here ?</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quibusdam repellat omnis soluta aliquid ullam cumque delectus asperiores eos expedita earum voluptatibus porro accusantium, voluptate, quam explicabo. Velit, aut veritatis.</p>
+                    <input type="submit" class="btn transparent sign-up-btn" value="Sign up"></input>
+                </div>
+
+                <img src="./img/login.svg" class="image" alt="">
+            </div>
+
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>One of us ?</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quibusdam repellat omnis soluta aliquid ullam cumque delectus asperiores eos expedita earum voluptatibus porro accusantium, voluptate, quam explicabo. Velit, aut veritatis.</p>
+                    <input type="submit" class="btn transparent sign-in-btn" value="Sign in"></input>
+                </div>
+
+                <img src="./img/register.svg" class="image" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="./javascript/animation.js"></script>
+    <script src="./javascript/form_validation.js"></script>
+</body>
+</html>
